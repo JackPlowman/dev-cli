@@ -1,0 +1,8 @@
+[project]
+name = "dev"
+dynamic = ["version"]
+readme = "README.md"
+requires-python = "~=3.13.0"
+dependencies = [
+  "typer==0.16.0"
+]
