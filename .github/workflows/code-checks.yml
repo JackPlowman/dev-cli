@@ -61,7 +61,7 @@ jobs:
       security-events: write
     strategy:
       matrix:
-        language: [actions]
+        language: [actions, python]
     uses: JackPlowman/reusable-workflows/.github/workflows/codeql-analysis.yml@f45ce248498fd7d46a13ed80fb9f37e08014baae # v2025.07.20.01
     with:
       language: ${{ matrix.language }}
