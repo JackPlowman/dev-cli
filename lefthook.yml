@@ -20,3 +20,9 @@ pre-commit:
       run: just zizmor-check
     Pinact Verify:
       run: just pinact-check
+    Ruff Checks:
+      run: just ruff-checks
+    Ty Checks:
+      run: just ty-check
+    UV Lock Check:
+      run: just uv-lock-check
